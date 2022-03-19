@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AltV.Net" Version="10.0.27-dev" />
+      <PackageReference Include="MySql.Data" Version="8.0.28" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <AllOutputFiles Include="$(OutputPath)\publish\*.*" />
+    </ItemGroup>
+
+    <Target Name="CopyFiles" AfterTargets="publish">
+        <PropertyGroup>
+            <CopiedFiles>$(OutputPath)\publish\*.*</CopiedFiles>
+
+            <TargetLocation Condition=" '$(Configuration)' == 'Release' ">../../server/resources/gamemode/server/</TargetLocation>
+        </PropertyGroup>
+        <Copy Condition=" '$(TargetLocation)' != '' " SourceFiles="@(AllOutputFiles)" DestinationFolder="$(TargetLocation)" SkipUnchangedFiles="false" />
+    </Target>
+
+</Project>

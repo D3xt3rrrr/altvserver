@@ -1,0 +1,12 @@
+C:\Users\mathi\Desktop\gamemode\gamemode\bin\Release\net6.0\gamemode.deps.json
+C:\Users\mathi\Desktop\gamemode\gamemode\bin\Release\net6.0\gamemode.dll
+C:\Users\mathi\Desktop\gamemode\gamemode\bin\Release\net6.0\gamemode.pdb
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\gamemode.csproj.AssemblyReference.cache
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\gamemode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\gamemode.AssemblyInfoInputs.cache
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\gamemode.AssemblyInfo.cs
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\gamemode.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\gamemode.dll
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\refint\gamemode.dll
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\gamemode.pdb
+C:\Users\mathi\Desktop\gamemode\gamemode\obj\Release\net6.0\ref\gamemode.dll
