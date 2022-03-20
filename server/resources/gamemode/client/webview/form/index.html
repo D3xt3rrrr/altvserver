@@ -6,13 +6,25 @@
         <link rel="stylesheet" type="text/css" href="./css/main.css" />
     </head>
     <body>
-        <form id="playerForm">
-            <label for="email">Email</label><br>
-            <input type="text" id="email"><br>
-            <label for="pass">Mot de passe</label><br>
-            <input type="password" id="pass"><br><br>
-            <input type="submit" value="Submit" onclick="playerForm()">
-        </form>
+        <div id="playerCreate">
+            <button onclick="showPlayerConnect()">Connect</button>
+            <label for="connect_email">Email</label><br>
+            <input type="text" id="create_email"><br>
+            <label for="connect_pass">Mot de passe</label><br>
+            <input type="password" id="create_pass"><br><br>
+            <input type="submit" value="Submit" onclick="playerCreate()">
+        </div>
+
+        <div id="playerConnect">
+            <button onclick="showPlayerCreate()">Cree</button>
+            <label for="connect_email">Email</label><br>
+            <input type="text" id="create_email"><br>
+            <label for="connect_pass">Mot de passe</label><br>
+            <input type="password" id="create_pass"><br><br>
+            <input type="submit" value="Submit" onclick="playerCreate()">
+        </div>
+        
+
         <script src="./js/main.js"></script>
     </body>
 </html>

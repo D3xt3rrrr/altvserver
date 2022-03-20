@@ -11,9 +11,12 @@ alt.on('connectionComplete', () => {
     webview.focus()
     alt.showCursor(true);
     alt.toggleGameControls(false);
-    webview.on('gamemode:login', (user, pass) => {
+    webview.on('gamemode:create', (user, pass) => {
        alt.log(user, pass);
-       alt.emitServer('gamemode:login', user, pass) 
+       alt.emitServer('gamemode:create', user, pass);
+       webview.destroy();
+       alt.showCursor(false);
+       alt.toggleGameControls(true);
     });
 })
 

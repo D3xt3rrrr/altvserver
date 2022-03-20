@@ -1,4 +1,13 @@
-﻿#playerForm {
+﻿#playerCreate {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-color: #333;
+}
+
+
+#playerConnect {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
